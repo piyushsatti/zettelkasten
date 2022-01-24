@@ -9,3 +9,6 @@
 
 ## Demystifying Containers
 ***Refer [here](https://medium.com/@saschagrunert/demystifying-containers-part-i-kernel-space-2c53d6979504) for technicalities of how containers work.***
+
+## Why do you want smaller container?
+Containers are deployed all across your infrastructure and smaller containers are better as they are more efficient.
