@@ -23,6 +23,12 @@ sys.append("../")
 sys.append(./base)
 
 import class.class_ex
+
+# also better to use
+# pathing for cross dependencies
+# to make system agnostic
+path = os.path.join(os.path.curdir, 'src', 'classes')
+sys.path.append(path)
 ```
 
 ### Module imports in complex projects
